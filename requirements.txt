@@ -1,0 +1,14 @@
+# Core dependencies for LoRA utilities
+torch>=2.0.0
+safetensors>=0.3.0
+numpy>=1.21.0
+
+# Optional but recommended for better performance
+# Uncomment the following lines if you want to use specific CUDA versions
+# torch-audio  # for audio processing (if needed)
+# torch-vision  # for vision processing (if needed)
+
+# Development and testing dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0  # code formatting
+# flake8>=4.0.0  # linting
